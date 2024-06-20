@@ -58,8 +58,8 @@ function getRandomComputerResult() {
     computerScoreSpanElement.innerText = computerScore;
     resetGameBtn.style.display = "none";
     optionsContainer.style.display = "block";
-    winnerMsgElement  = "";
-    roundResultsMsg  = "";
+    winnerMsgElement = "";
+    roundResultsMsg = "";
   };
   
   resetGameBtn.addEventListener("click", resetGame);
